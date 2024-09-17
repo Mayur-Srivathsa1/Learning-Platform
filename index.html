@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learning Platform</h1>
+    </header>
+
+    <main>
+        <section class="components">
+            <div id="hatt" class="component">
+                <a href="#"  onclick="toggleContent('roadmapDetails')">
+                    <h2 >Roadmap for UG and PG</h2>
+                </a>
+                <div id="roadmapDetails" class="details">
+                    <p>UG: Step 1 -> Step 2 -> Step 3</p>
+                    <p>PG: Step 1 -> Step 2 -> Step 3</p>
+                </div>
+            </div>
+
+            <div id="comm" class="component">
+                <a href="#" onclick="showGroups()">
+                  <centre>
+                    <h2 style='color:white'>Creating</h2>
+                    </centre>
+                </a>
+            </div>
+
+            <div id="levv" class="component">
+                <a href="#" onclick="addPoints(10)">
+                    <h2 style="color:white">Levels and Ranking System</h2>
+                </a>
+                <p id="userLevel">Your current level: 0</p>
+            </div>
+
+            <div id="matt" class="component">
+                <a href="#" onclick="showMentors()">
+                    <h2>Mentors</h2>
+                </a>
+            </div>
+
+            <div id="offl" class="component">
+                <a href="#" onclick="showMeetups()">
+                    <h2>Offline Meetups</h2>
+                </a>
+            </div>
+
+            <div id="conn" class="component">
+                <a href="#" onclick="showConsistencyTips()">
+                    <h2>Consistency</h2>
+                </a>
+            </div>
+
+            <div id="grpp" class="component">
+                <a href="#" onclick="enrollInLiveSession()">
+                    <h2>Live Group Sessions on Weekends</h2>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <button id="btnn" onclick="login()">Login</button>
+        <p id="userGreeting"></p>
+        <p>© 2024 Learning Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

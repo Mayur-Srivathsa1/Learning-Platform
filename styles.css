@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a4b5e;
+}
+
+header {
+    background-color: #20335e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.component {
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.component:hover {
+    transform: scale(1.05);
+}
+
+.component a {
+    text-decoration: none;
+    color: #333;
+}
+
+#hatt{
+  background-image: url('https://media.istockphoto.com/id/1327594288/vector/winding-highway-to-the-mountains.jpg?s=612x612&w=0&k=20&c=LjjjCqZRPGBhnHUWbl1JrtdqPwhhhU19mWvNpktDAKc=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+#comm{
+  background-image: url('https://fltmag.com/wp-content/uploads/2020/06/unnamed.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+#levv{
+  background-image: url('https://img.freepik.com/free-vector/military-game-ranking-badge-set-with-star-insignia_107791-18258.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+}
+
+#matt{
+  background-image: url('https://coffeemug.ai/blog/wp-content/uploads/2022/01/Mentor-PNG-Final-1024x768.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#offl{
+  background-image: url('https://e7.pngegg.com/pngimages/150/989/png-clipart-three-men-working-in-front-of-table-illustration-creativity-flat-design-creative-services-cartoon-figures-of-office-cartoon-character-television.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+#conn{
+  background-image: url('https://mpug.com/wp-content/uploads/2023/09/Picture1-1-jpg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#grpp{
+  background-image: url('https://historialnoticias.uner.edu.ar/public/uploads/nota_nicolas_abrahan_interior1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#btnn{
+  font-size: 20px;
+  padding:5px;
+  border-color: none;
+  background-color: #4CAF50;
+  border:none
+}
+button:hover {
+background-color: #45a049;
+cursor: pointer;
+  
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 5px 0;
+}
